@@ -1,0 +1,29 @@
+.btn{
+  background-color:#2980b9;
+  color:#FFF;
+  border-radius:5px;
+  border:none;
+  width:150px;
+  height:35px;
+  padding:0 8px 0 8px;
+  line-height:30px;
+  font-weight:bold;
+  margin-top:8px;
+  cursor: pointer;
+  transition:ease-in-out 500ms;
+  
+}
+.btn:hover{
+  transform: scale(1.1);
+  transition:ease-in-out 500ms;
+
+
+}
+@media (max-width:780px){
+  .btn{
+    height:30px;
+    margin:0;
+  }
+    
+  
+}

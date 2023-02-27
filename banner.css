@@ -1,0 +1,32 @@
+.banner{
+  background-color:#151515;
+  height: 100vh;
+  text-align: center;
+  padding-top:80px;
+  background-image:url(image/developer.jpg);
+  background-position:center;
+  background-blend-mode: darken;
+  background-color: #000C;
+ 
+  
+}
+
+.banner p{
+  margin:10px;
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+  font-size:24px;
+  font-size:clamp(1.3rem,3.5vw,1.7rem);
+  
+}
+.banner .btn{
+  margin:30px 10px;
+  
+
+}
+.banner i{
+  color: #FFF;
+  font-size:30px;
+  margin-top:50px;
+  
+}
