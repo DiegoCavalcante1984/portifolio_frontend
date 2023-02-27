@@ -1,6 +1,6 @@
 .banner{
   background-color:#151515;
-  height: 100vh;
+  height:100vh;
   text-align: center;
   padding-top:80px;
   background-image:url(image/developer.jpg);
@@ -29,4 +29,10 @@
   font-size:30px;
   margin-top:50px;
   
+}
+
+@media (max-width:780px){
+  .banner{
+    height:120vh;
+  }
 }
