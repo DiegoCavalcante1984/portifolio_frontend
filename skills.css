@@ -1,0 +1,50 @@
+.portifolio{
+  background-color: #272525;
+}
+.subtitle_portifolio{
+  font-size:clamp(2rem,3.6vw,4rem);
+  color:#fdcb6e;
+  text-align: center;
+  background-color:#1f1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.portifolio_skills{
+  background-color:#2980b9;
+  display: flex;
+  justify-content: space-around;
+  padding:50px 50px;
+
+}
+.skills{
+  text-align: center;
+  
+  width:100px;
+  height:100px;
+  border-radius:5px ;
+  padding:5px;
+  margin-bottom:10px;
+  margin:20px auto;
+  
+
+
+
+}
+.skills p{
+  font-size:1.3rem;
+  color:#FFF;
+  text-align: center;
+  padding-bottom:20px;
+}
+.skills i{
+  font-size:clamp(2rem,6vw,3rem);
+  text-align: center;
+  padding-bottom:50px;
+}
+@media (max-width:780px){
+  .portifolio_skills{
+    display: block;
+  }
+}

@@ -1,12 +1,15 @@
 .banner{
-  background-color:#151515;
+  background-color:#000000;
   height:100vh;
   text-align: center;
   padding-top:80px;
-  background-image:url(image/developer.jpg);
-  background-position:center;
+  background-size:cover;
+  
+  background-image:url(image/note.jpg);
+  background-repeat: no-repeat;
   background-blend-mode: darken;
-  background-color: #000C;
+  background-color: rgba(0, 0, 0, 0.733);
+  
  
   
 }
@@ -33,6 +36,8 @@
 
 @media (max-width:780px){
   .banner{
-    height:120vh;
+    height:100vh;
+    background-position:center;
+    
   }
 }
