@@ -36,13 +36,13 @@
   .banner{
     height:100vh;
     background-position:center;
-    height: auto;
+    height:90vh;
     
   }
 }
 @media (min-width:800px){
   .banner .btn{
     padding-bottom:40px;
-    height: auto;
+    height:auto;
   }
 }
