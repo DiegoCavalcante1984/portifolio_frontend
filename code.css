@@ -1,0 +1,17 @@
+
+
+.portifolio_skills{
+  background-color:#2980b9;
+  display: flex;
+  justify-content: space-around;
+  padding:50px 50px;
+}
+.portifolio_skills{
+  font-size:clamp(2rem,3.6vw,4rem);
+  color:#fdcb6e;
+  text-align: center;
+  background-color:#1f1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

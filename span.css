@@ -1,0 +1,10 @@
+.span{
+  
+    background-color:#2980b9;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+  
+}

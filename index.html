@@ -20,6 +20,9 @@
    <link rel="stylesheet" href="subtitle.css">
    <link rel="stylesheet" href="title.css">
    <link rel="stylesheet" href="skills.css">
+   <link rel="stylesheet" href="var.css">
+   <link rel="stylesheet" href="span.css">
+   <link rel="stylesheet" href="portifolio.css">
 
   <!--------------------------------------------------------->
  
@@ -29,7 +32,7 @@
   <header>
     
     <nav class="nav">
-      <h1>Diego<span>Cavalcante.</span></h1>
+      <h1>Diego<span class="span">Cavalcante.</span></h1>
       <i class="fa-solid fa-bars" id="burger"></i>
       <ul>
         
@@ -71,8 +74,8 @@
       </div>
       
         <article>
-          <div class="article_subtitle">
-            <h2>Sobre</h2>
+          <div class="background_subtitle">
+            <h2 class="subtitle">Sobre</h2>
           </div>
           <div class="container_article">
           
@@ -81,7 +84,7 @@
             <div class="box_text">
             
               <h2 class="subtitle">Olá pessoal !</h2>
-              <p>Eu sou o <span>Diego</span> analísta de sistemas desenvolvedor web.
+              <p>Eu sou o <span class="span">Diego</span> analísta de sistemas desenvolvedor web.
               Utilizo as mais recentes tecnologias da web, todos os sites são construídos sob medida e adaptados às necessidades específicas do cliente.</p>
             </div>
             
@@ -96,12 +99,15 @@
           </div>
         </article>
         
-        <section class="portifolio">
-          <div class="subtitle_portifolio">
+
+        <!--SKILLS-->
+        <section class="container_skills">
+          
+          <div class="background_subtitle">
             <h2 class="subtitle">skills</h2>
           </div>
 
-          <div class="portifolio_skills">
+          <div class="skills_subtitle">
             <div class="skills">
               <p>html</p>
               <i class="fa-brands fa-html5"></i>
@@ -118,6 +124,43 @@
               <p>git</p>
               <i class="fa-brands fa-git"></i>
             </div>
+          </div>
+        </section>
+
+        <!--Jobs-->
+        <section class="container_portifolio">
+          <div class="background_subtitle">
+            <h2 class="subtitle">Portifólio</h2>
+          </div>
+
+          <div class="container_jobs">
+            
+            
+              <div class="jobs">
+                
+                <a href="https://diegocavalcante1984.github.io/respirah/" target="_blank">
+                <h2>Respirah!</h2>
+                <img src="image/lotus.png" alt="Flor de Lotus">
+                </a>
+              </div>
+
+              <div class="jobs">
+                
+                <a href="#">
+                <h2>Landing Page</h2>
+                <img src="image/correndo.png" alt="Pessoa correndo">
+                </a>
+              </div>
+
+              <div class="jobs">
+                
+                <a href="#">
+                <h2>Bistrô</h2>
+                <img src="image/bistro2.jpg" alt="imagem de um comércio">
+                </a>
+              </div>
+
+              
           </div>
         </section>
      

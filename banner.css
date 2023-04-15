@@ -1,6 +1,5 @@
 .banner{
   background-color:#000000;
-  height:auto;
   text-align: center;
   padding-top:80px;
   background-size:cover;
@@ -37,11 +36,13 @@
   .banner{
     height:100vh;
     background-position:center;
+    height: auto;
     
   }
 }
 @media (min-width:800px){
   .banner .btn{
     padding-bottom:40px;
+    height: auto;
   }
 }

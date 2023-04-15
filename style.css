@@ -27,32 +27,7 @@ article img {
 .container_article{
   display: flex;
   justify-content:space-around;
-  
-  
-  
-}
-span{
-  background-color:#2980b9;
-  font-family: 'Roboto', sans-serif;
-  font-weight:bold;
-  background-clip: text;
-  -webkit-background-clip: text; 
-
-  -webkit-text-fill-color: transparent;
-}
-.article_subtitle{
-  background-color:#1f1e1e;
-  color:#fdcb6e;
-  font-size:1.6rem;
-  padding:10px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  
 }  
-
-
-
 .box_text{
   
   margin-top: 100px;
@@ -62,7 +37,7 @@ span{
 }
 
 .box_text p{
-  padding-top: 30px;
+  padding-top: 10px;
   line-height:30px;
   color:#FFF;
   font-size:1.3rem;
@@ -144,3 +119,4 @@ span{
   transition:ease-in-out 600ms;
   
 }
+
