@@ -1,19 +1,23 @@
 .container_skills{
   background-color: #272525;
+  height:60vh;
+  
+  
 }
 .skills_subtitle{
   padding-top:60px;
   display: flex;
   justify-content:space-around;
-  background-color: #2980b9;
+  background-color:var(--background-article);
 }
 .skills{
+  line-height: 30vh;
   text-align: center;
 }
 
 .skills p{
   font-size:1.3rem;
-  color:#FFF;
+  color:#fdcb6e;
   text-align: center;
   padding-bottom:20px;
 }
@@ -21,6 +25,7 @@
   font-size:clamp(2rem,6vw,3rem);
   text-align: center;
   padding-bottom:50px;
+  color: #469bd4;
 }
 @media (max-width:780px){
   .portifolio_skills{

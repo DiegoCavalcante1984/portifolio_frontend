@@ -1,23 +1,26 @@
+
 .nav{
   display: flex;
   justify-content: space-around;
   background-color:#151515;
   border-bottom:0.8px solid rgb(210, 210, 210);
   width:100%;
-  position: fixed;
+  
   
   
   
 }
+
 #burger{
   color: #FFF;
-  
+  width:100%;
+  background-color:#151515;
   text-align: center;
   line-height:50px;
-  font-size:1.3rem;
+  font-size:2rem;
   display:none;
   width:100vw;
-  margin-left:130px;
+  
 
 }
 .nav h1{
@@ -45,13 +48,13 @@
 .nav ul li{
   margin:10px;
   padding:5px;
+  transition:ease-in-out 600ms;
 }
 .nav ul li a{
   color:rgb(159, 159, 159);
   text-decoration:none;
-  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: bold;
+  text-transform:capitalize;
+  font-size:18px;
   font-family: sans-serif;
   transition:ease-in-out 600ms;
   
@@ -75,15 +78,54 @@
     justify-content:center;
     width:60px;
     font-size:23px;
+    cursor: pointer;
+    transition:ease-in-out 600ms;
+    
+    
   }
-  .social-media{
+  #burger:hover{
+    background-color: #2980b9;
+    transition:ease-in-out 600ms;
+
+  }
+  .box-burger{
+  width:100%;
+  background-color:#151515;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  
+  
+}
+  .social-media li{
     display:none;
+    
   }
   .nav h1{
     margin-left:20px;
   }
+  .nav{
+    display:block;
+    
+  }
   .nav ul{
     display:none;
+    text-align: center;
+    
+    
+    
+  }
+  .nav ul li:hover{
+    background-color: #2980b9;
+    transition:ease-in-out 600ms;
+  }
+  .nav ul li a{
+    width:100%;
+    padding:10px;
+    font-size:20px;
+    
+    
+
   }
 }
 
